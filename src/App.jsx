@@ -50,7 +50,7 @@ const [currentPage, setCurrentPage] = useState(1)
       </form>
       {
         hasError || finder === "0" ?
-        <h2>this location do not exist</h2>
+        <h2>this location does not exist</h2>
         :
         <>
         <LocationCard
